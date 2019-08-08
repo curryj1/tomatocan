@@ -19,10 +19,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'koala'
 gem 'will_paginate-bootstrap'
-<<<<<<< HEAD
-=======
 gem 'simple_calendar'
->>>>>>> 9a3ee4bf7c2932cc621a131d243719fcc1267fb6
 
 gem 'pry'
 gem 'aws-sdk-s3' #aws-s3'
@@ -56,10 +53,6 @@ group :test, :development do
   gem 'apparition', '~> 0.2.0'
   gem 'capybara'
   gem 'capybara-screenshot', :group => :test
-<<<<<<< HEAD
-  gem 'listen'
-=======
->>>>>>> 9a3ee4bf7c2932cc621a131d243719fcc1267fb6
   gem 'rails-controller-testing'
 end
 
@@ -96,8 +89,4 @@ end
 
 group :development do
     gem 'rails_real_favicon'
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> 9a3ee4bf7c2932cc621a131d243719fcc1267fb6
