@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  encoding: unicode
+  database: Dev_Base
+  username: curryj1
+  password: CrowdPublish
+
+test:
+  <<: *default
+  encoding: unicode
+  database: Test_Base
+  username: curryj1
+  password: CrowdPublish
+production:
+  <<: *default
