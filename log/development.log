@@ -2239,3 +2239,147 @@ Processing by StaticPagesController#internship as HTML
 Completed 200 OK in 157ms (Views: 155.6ms | ActiveRecord: 0.0ms)
 
 
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /home/justin/tomatocan/config/environment.rb:7)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run Crowdpublishtv::Application` to `run Rails.application` in config.ru. (called from require at bin/rails:4)
+Started GET "/" for 127.0.0.1 at 2019-08-20 12:13:58 -0400
+  [1m[35m (25.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/homepg
+  [1m[35m (38.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "events" WHERE (start_at > '2019-08-20 06:13:59.542387')[0m
+  Rendered layouts/_countdown_clock.html.erb (88.7ms)
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "events" WHERE (start_at > '2019-08-20 06:13:59.542387')[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "events" WHERE (start_at > '2019-08-20 06:13:59.542387')[0m
+  Rendered layouts/_maincalendar.html.erb (2.5ms)
+  Rendered static_pages/home.html.erb within layouts/homepg (9420.4ms)
+  Rendered application/_favicon.html.erb (9.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 9795ms (Views: 9667.3ms | ActiveRecord: 85.3ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-08-20 12:14:14 -0400
+Processing by UsersController#show as 
+  Parameters: {"permalink"=>"favicon"}
+  [1m[36mUser Load (20.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."permalink" = $1 LIMIT $2[0m  [["permalink", "favicon"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 64.6ms)
+
+
+  
+NoMethodError (undefined method `merchandises' for nil:NilClass):
+  
+app/controllers/users_controller.rb:257:in `set_user'
+Started GET "/internship" for 127.0.0.1 at 2019-08-20 12:15:58 -0400
+Processing by StaticPagesController#internship as HTML
+  Rendering static_pages/internship.html.erb within layouts/application
+  Rendered static_pages/internship.html.erb within layouts/application (0.5ms)
+  Rendered application/_favicon.html.erb (8.5ms)
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered layouts/_footer.html.erb (3.4ms)
+Completed 200 OK in 96ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/internship" for 127.0.0.1 at 2019-08-20 14:14:17 -0400
+Processing by StaticPagesController#internship as HTML
+  Rendering static_pages/internship.html.erb within layouts/application
+  Rendered static_pages/internship.html.erb within layouts/application (0.4ms)
+  Rendered application/_favicon.html.erb (7.7ms)
+  Rendered layouts/_header.html.erb (6.3ms)
+  Rendered layouts/_footer.html.erb (7.8ms)
+Completed 200 OK in 96ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/internship" for 127.0.0.1 at 2019-08-20 14:15:39 -0400
+Processing by StaticPagesController#internship as HTML
+  Rendering static_pages/internship.html.erb within layouts/application
+  Rendered static_pages/internship.html.erb within layouts/application (1.6ms)
+  Rendered application/_favicon.html.erb (9.6ms)
+  Rendered layouts/_header.html.erb (19.2ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 117ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/internship" for 127.0.0.1 at 2019-08-20 14:17:44 -0400
+Processing by StaticPagesController#internship as HTML
+  Rendering static_pages/internship.html.erb within layouts/application
+  Rendered static_pages/internship.html.erb within layouts/application (1.4ms)
+  Rendered application/_favicon.html.erb (10.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 96ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/internship" for 127.0.0.1 at 2019-08-20 14:18:02 -0400
+Processing by StaticPagesController#internship as HTML
+  Rendering static_pages/internship.html.erb within layouts/application
+  Rendered static_pages/internship.html.erb within layouts/application (0.4ms)
+  Rendered application/_favicon.html.erb (7.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 96ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/internship" for 127.0.0.1 at 2019-08-20 14:19:17 -0400
+Processing by StaticPagesController#internship as HTML
+  Rendering static_pages/internship.html.erb within layouts/application
+  Rendered static_pages/internship.html.erb within layouts/application (0.6ms)
+  Rendered application/_favicon.html.erb (7.4ms)
+  Rendered layouts/_header.html.erb (6.3ms)
+  Rendered layouts/_footer.html.erb (5.4ms)
+Completed 200 OK in 97ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/internship" for 127.0.0.1 at 2019-08-20 14:20:22 -0400
+Processing by StaticPagesController#internship as HTML
+  Rendering static_pages/internship.html.erb within layouts/application
+  Rendered static_pages/internship.html.erb within layouts/application (0.5ms)
+  Rendered application/_favicon.html.erb (10.8ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (4.4ms)
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/internship" for 127.0.0.1 at 2019-08-20 14:21:10 -0400
+Processing by StaticPagesController#internship as HTML
+  Rendering static_pages/internship.html.erb within layouts/application
+  Rendered static_pages/internship.html.erb within layouts/application (0.5ms)
+  Rendered application/_favicon.html.erb (8.7ms)
+  Rendered layouts/_header.html.erb (8.4ms)
+  Rendered layouts/_footer.html.erb (7.5ms)
+Completed 200 OK in 105ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/internship" for 127.0.0.1 at 2019-08-20 14:50:02 -0400
+Processing by StaticPagesController#internship as HTML
+  Rendering static_pages/internship.html.erb within layouts/application
+  Rendered static_pages/internship.html.erb within layouts/application (0.5ms)
+  Rendered application/_favicon.html.erb (4.5ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_footer.html.erb (5.5ms)
+Completed 200 OK in 96ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/internship" for 127.0.0.1 at 2019-08-20 14:50:24 -0400
+Processing by StaticPagesController#internship as HTML
+  Rendering static_pages/internship.html.erb within layouts/application
+  Rendered static_pages/internship.html.erb within layouts/application (0.7ms)
+  Rendered application/_favicon.html.erb (6.6ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (5.5ms)
+Completed 200 OK in 105ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-20 14:59:06 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/homepg
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "events" WHERE (start_at > '2019-08-20 08:59:06.465796')[0m
+  Rendered layouts/_countdown_clock.html.erb (1.9ms)
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "events" WHERE (start_at > '2019-08-20 08:59:06.465796')[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "events" WHERE (start_at > '2019-08-20 08:59:06.465796')[0m
+  Rendered layouts/_maincalendar.html.erb (4.8ms)
+  Rendered static_pages/home.html.erb within layouts/homepg (13.7ms)
+  Rendered application/_favicon.html.erb (5.4ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 118ms (Views: 115.9ms | ActiveRecord: 0.6ms)
+
+
